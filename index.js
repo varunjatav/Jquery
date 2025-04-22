@@ -1,2 +1,4 @@
 
-    $("h1").addClass("big-title margin-50");
+   $(document).ready(function(){
+    $('h1').text("Hello world!!").css("font-size", "xxl").css("color", "green");
+   })
